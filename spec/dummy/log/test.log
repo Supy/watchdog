@@ -1,0 +1,69 @@
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+WatchdogTest: test_it_has_a_version_number
+------------------------------------------
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2023-11-13T23:30:06.822Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2023-11-13T23:30:06.839Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2023-11-13T23:30:06.839Z INFO ------------------------------------------
+2023-11-13T23:30:06.839Z INFO WatchdogTest: test_it_has_a_version_number
+2023-11-13T23:30:06.839Z INFO ------------------------------------------
+2023-11-13T23:30:06.839Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T13:56:11.922Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T13:56:11.944Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2024-01-10T13:56:11.944Z INFO ------------------------------------------
+2024-01-10T13:56:11.944Z INFO WatchdogTest: test_it_has_a_version_number
+2024-01-10T13:56:11.944Z INFO ------------------------------------------
+2024-01-10T13:56:11.944Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T13:56:53.588Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T13:57:21.859Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T13:57:36.898Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T13:57:36.917Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2024-01-10T13:57:36.917Z INFO ------------------------------------------
+2024-01-10T13:57:36.917Z INFO WatchdogTest: test_it_has_a_version_number
+2024-01-10T13:57:36.917Z INFO ------------------------------------------
+2024-01-10T13:57:36.917Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T13:59:31.959Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:00:10.418Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:00:42.105Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:03:54.085Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:03:54.104Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2024-01-10T14:03:54.104Z INFO ------------------------------------------
+2024-01-10T14:03:54.104Z INFO WatchdogTest: test_it_has_a_version_number
+2024-01-10T14:03:54.104Z INFO ------------------------------------------
+2024-01-10T14:03:54.104Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T14:04:38.477Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:04:38.495Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2024-01-10T14:04:38.495Z INFO ------------------------------------------
+2024-01-10T14:04:38.495Z INFO WatchdogTest: test_it_has_a_version_number
+2024-01-10T14:04:38.495Z INFO ------------------------------------------
+2024-01-10T14:04:38.495Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T14:05:19.829Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:05:19.847Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2024-01-10T14:05:19.847Z INFO ------------------------------------------
+2024-01-10T14:05:19.847Z INFO WatchdogTest: test_it_has_a_version_number
+2024-01-10T14:05:19.847Z INFO ------------------------------------------
+2024-01-10T14:05:19.847Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T14:05:59.801Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-01-10T14:05:59.819Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+2024-01-10T14:05:59.819Z INFO ------------------------------------------
+2024-01-10T14:05:59.819Z INFO WatchdogTest: test_it_has_a_version_number
+2024-01-10T14:05:59.819Z INFO ------------------------------------------
+2024-01-10T14:05:59.819Z DEBUG   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+2024-01-10T14:30:30.782Z INFO request.started action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/
+2024-01-10T14:30:30.785Z DEBUG   Rendering text template
+2024-01-10T14:30:30.785Z INFO request.processed action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/ status=200 duration=3.3 db=0.0 view=2.12
+2024-02-15T06:30:03.179Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-02-15T06:30:03.222Z INFO request.started action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/
+2024-02-15T06:30:03.226Z DEBUG   Rendering text template
+2024-02-15T06:30:03.226Z INFO request.processed action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/ status=200 duration=3.81 db=0.0 view=2.42
+2024-02-15T06:39:06.024Z DEBUG   [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+2024-02-15T06:39:06.066Z INFO request.started action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/
+2024-02-15T06:39:06.069Z DEBUG   Rendering text template
+2024-02-15T06:39:06.069Z INFO request.processed action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/ status=200 duration=3.36 db=0.0 view=2.09
+2024-02-15T06:39:06.071Z INFO request.started action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/
+2024-02-15T06:39:06.071Z DEBUG   Rendering text template
+2024-02-15T06:39:06.071Z INFO request.processed action=ApplicationController#index ip=127.0.0.1 method=GET format=html url=http://www.example.com/ status=200 duration=0.12 db=0.0 view=0.08
