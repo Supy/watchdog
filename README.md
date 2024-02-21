@@ -7,7 +7,7 @@ reducing its default output and providing formatters for popular log management 
 Add this line to your application's Gemfile:
 
 ```ruby
-git 'https://github.com/Supy/watchdog-rails.git'
+gem 'watchdog-rails', require: 'watchdog', git: 'https://github.com/Supy/watchdog.git', ref: '58ddfef'
 ```
 
 Set the required log formatter in either `config/environments/production.rb` or `config/application.rb`:
