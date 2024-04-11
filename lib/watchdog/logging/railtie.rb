@@ -11,6 +11,7 @@ module Watchdog
       config.watchdog = ActiveSupport::OrderedOptions.new
       config.watchdog.enabled = true
       config.watchdog.log_formatter = :simple
+      config.watchdog.include_request_params = true
 
       initializer 'watchdog.remove_rack_logger' do |app|
         Watchdog::Logging.remove_rack_logger(app) if config.watchdog.enabled
