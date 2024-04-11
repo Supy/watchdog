@@ -74,6 +74,7 @@ module Watchdog
           attributes[:ip] = payload[:request].remote_ip
           attributes[:method] = payload[:method]
           attributes[:format] = payload[:format]
+          attributes[:params] = payload[:params]
           extract_url(event, attributes)
         end
 
