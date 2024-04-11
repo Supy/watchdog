@@ -18,6 +18,9 @@ config.watchdog.log_formatter = :simple
 
 # For Datadog's JSON format
 config.watchdog.log_formatter = :datadog
+
+# For disabling ActionController params logging 
+config.watchdog.include_request_params = false # (defaults true)
 ```
 
 ## Credits
